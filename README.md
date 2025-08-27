@@ -53,16 +53,19 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 ```bash
 ssrmmd_filter.py
 ````
-text
-Keeps only polymorphic loci (polymorphism == yes)
 
-Di-/tri-/tetranucleotide motifs (default)
+Keeps only:
+- Polymorphic loci (polymorphism == yes)
+- Di-/tri-/tetranucleotide motifs (default)
+- ≥5 repeats in both genomes
+- Removes AT-only motifs unless --keep-at-only is set
+- Preserves schema (ready for connectorToPrimer3.pl)
 
-≥5 repeats in both genomes
+Usage:
 
-Removes AT-only motifs unless --keep-at-only is set
-
-Preserves schema → ready for connectorToPrimer3.pl
+```bash
+python ssrmmd_filter.py -i input.compare -o output.filtered.compare
+''''
 
 ---
 
