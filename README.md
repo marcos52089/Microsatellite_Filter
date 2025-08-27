@@ -49,12 +49,12 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 ---
 
 ## Tool Reference
-
+````
 ```bash
 ssrmmd_filter.py
 ```
-
-```text
+````
+text
 Keeps only polymorphic loci (polymorphism == yes)
 
 Di-/tri-/tetranucleotide motifs (default)
