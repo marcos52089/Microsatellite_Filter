@@ -50,9 +50,7 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 
 ## Tool Reference
 
-```bash
-ssrmmd_filter.py
-````
+`ssrmmd_filter.py`
 
 Keeps only:
 - Polymorphic loci (polymorphism == yes)
@@ -65,7 +63,7 @@ Usage:
 
 ```bash
 python ssrmmd_filter.py -i input.compare -o output.filtered.compare
-''''
+````
 
 ---
 
