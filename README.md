@@ -65,6 +65,28 @@ Usage:
 python ssrmmd_filter.py -i input.compare -o output.filtered.compare
 ````
 
+**`add_msat_name.py`**
+
+- Extracts locus ID from primer id (e.g., 66.1 → locus 66)
+- Builds unique names for microsatellites like TG(11-13).1
+- Ensures all primers of the same locus share the same name
+
+Usage:
+
+```bash
+python add_msat_name.py -p microsatellite_primers -c input.compare -o microsatellite_primer.named.tsv
+````
+
+**`force_tsv_extension.py`**  
+
+- Copies/renames any file to have a .tsv suffix (content unchanged)
+
+Usage:
+
+```bash
+python force_tsv_extension.py -i input.file -o output.tsv --rename
+````
+
 ---
 
 ## End-to-End Workflow
