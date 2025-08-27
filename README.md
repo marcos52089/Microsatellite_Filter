@@ -65,6 +65,8 @@ Usage:
 python ssrmmd_filter.py -i input.compare -o output.filtered.compare
 ````
 
+--
+
 **`add_msat_name.py`**
 
 - Extracts locus ID from primer id (e.g., 66.1 → locus 66)
@@ -76,6 +78,8 @@ Usage:
 ```bash
 python add_msat_name.py -p microsatellite_primers -c input.compare -o microsatellite_primer.named.tsv
 ````
+
+--
 
 **`force_tsv_extension.py`**  
 
