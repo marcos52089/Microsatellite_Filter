@@ -48,6 +48,24 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 
 ---
 
+## Tool Reference
+
+```bash
+ssrmmd_filter.py
+
+```text
+Keeps only polymorphic loci (polymorphism == yes)
+
+Di-/tri-/tetranucleotide motifs (default)
+
+≥5 repeats in both genomes
+
+Removes AT-only motifs unless --keep-at-only is set
+
+Preserves schema → ready for connectorToPrimer3.pl
+
+---
+
 ## End-to-End Workflow
 
 ```bash
@@ -71,8 +89,3 @@ python add_msat_name_v3.py \
 
 # 4) (Optional) Fix extension if needed
 python force_tsv_extension.py -i A_welshii_Primers.named.v3.file -o A_welshii_Primers.named.v3.tsv --rename
-
----
-
-## Workflow Overview
-
