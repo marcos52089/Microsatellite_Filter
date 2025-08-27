@@ -50,10 +50,8 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 
 ## Tool Reference
 
-````markdown
 ```bash
 ssrmmd_filter.py
-```
 ````
 text
 Keeps only polymorphic loci (polymorphism == yes)
