@@ -1,7 +1,7 @@
 # Microsatellite_Design
 This repo contains lightweight, reproducible utilities to go from SSRMMD outputs → filtered polymorphic SSRs → Primer3 primer design → standardized microsatellite names you can sort, share, and import into Excel/Sheets.
 
-# A. welshii SSR Marker Workflow
+# SSR Marker Workflow
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Primer3](https://img.shields.io/badge/Primer3-2.5.0-green.svg)](http://primer3.sourceforge.net/)
@@ -11,7 +11,7 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Workflow Overview](#workflow-overview)
 - [Tools Included](#tools-included)
 - [End-to-End Workflow](#end-to-end-workflow)
@@ -25,7 +25,7 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 
 ---
 
-## 🧭 Workflow Overview
+## Workflow Overview
 
 1. **Mine SSRs** with [SSRMMD](https://github.com/GouXiangJian/SSRMMD).
 2. **Filter polymorphic SSRs** to your design rules (`ssrmmd_filter.py`).
@@ -35,7 +35,7 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 
 ---
 
-## 🔧 Tools Included
+## Tools Included
 
 - **`ssrmmd_filter.py`**  
   Filters `.compare` files to keep only high-quality, polymorphic SSR loci, while preserving schema and column order.
@@ -48,7 +48,7 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 
 ---
 
-## 🚀 End-to-End Workflow
+## End-to-End Workflow
 
 ```bash
 # 1) Filter SSRs
@@ -71,3 +71,8 @@ python add_msat_name_v3.py \
 
 # 4) (Optional) Fix extension if needed
 python force_tsv_extension.py -i A_welshii_Primers.named.v3.file -o A_welshii_Primers.named.v3.tsv --rename
+
+---
+
+## Workflow Overview
+
