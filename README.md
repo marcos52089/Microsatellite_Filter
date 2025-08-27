@@ -50,7 +50,7 @@ Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered
 
 ## Tool Reference
 
-`ssrmmd_filter.py`
+**`ssrmmd_filter.py`**  
 
 Keeps only:
 - Polymorphic loci (polymorphism == yes)
