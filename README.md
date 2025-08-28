@@ -1,4 +1,4 @@
-# Microsatellite_Design
+# Microsatellite_Filter
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Primer3](https://img.shields.io/badge/Primer3-2.5.0-green.svg)](http://primer3.sourceforge.net/)
