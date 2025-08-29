@@ -4,7 +4,7 @@
 [![Primer3](https://img.shields.io/badge/Primer3-2.5.0-green.svg)](http://primer3.sourceforge.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Lightweight, reproducible utilities to go from **SSRMMD** outputs → **filtered polymorphic SSRs** → **Primer3 primer design** → **standardized microsatellite names** you can sort, share, and import into Excel/Sheets.
+Lightweight, reproducible utilities to go from **SSRMMD** outputs to **filtered polymorphic SSRs** to **Primer3 primer design** to **standardized microsatellite names** that can be sorted, shared, and imported into Excel/Sheets.
 
 ---
 
@@ -84,7 +84,7 @@ python ssrmmd_filter.py \
   -i SSRMMD_microsatellites.compare \
   -o SSRMMD_microsatellites_filtered.compare
 
-# 2) Design primers (tight Tm for one thermocycler program)
+# 2) Design primers
 perl connectorToPrimer3.pl \
   -i consensus_BS13_TB_sort.fasta-and-consensus_BS21_KL_MCS_sort.filtered.compare \
   -s 2 -m USE -pa /path/to/primer3_core-linux \
